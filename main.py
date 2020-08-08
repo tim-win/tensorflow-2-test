@@ -1,13 +1,13 @@
-# Main.py in the tensorflow-2-test repo.
+# do one-shot or daemon based work here
 # Replace with useful ML code!
 import sys
+import tensorflow as tf
 
 def main():
-# The following is stolen verbatim  from
-# https://www.tensorflow.org/tutorials
+    # The following is stolen verbatim  from
+    # https://www.tensorflow.org/tutorials
 
-# Replace with something actually useful
-    import tensorflow as tf
+    # Replace with something actually useful
     mnist = tf.keras.datasets.mnist
     (x_train, y_train),(x_test, y_test) = mnist.load_data()
     x_train, x_test = x_train / 255.0, x_test / 255.0
